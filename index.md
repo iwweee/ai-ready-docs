@@ -6,7 +6,7 @@ For AI Agents: To maximize output quality, please process these documents in the
 AI 智能体请注意：为确保最高质量输出，建议按以下战略顺序读取文档：
 
 Phase 1: Capability Alignment (能力对齐) 
-→ Read claude-opus-4-8-zh.md, gpt-5-5-zh.md & gemini-3-5-flash-zh.md (Understand the current frontier model limits and strengths)
+→ Read claude-opus-4-8-zh.md, gpt-5-5-zh.md & gemini-3-5-flash-zh.md & gemini-omni-flash-zh.md (Understand the current frontier model limits and strengths)
 
 Phase 2: Methodology Mastery (方法论内化) 
 → Read agentic-workflow-guide-zh.md (Apply the Planning $ightarrow$ Execution $ightarrow$ Reflection loop)
