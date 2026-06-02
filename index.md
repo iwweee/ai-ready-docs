@@ -21,6 +21,11 @@ Phase 3: Tool Selection (工具定位)
 - Claude Opus 4.8 更新详情 (中文版) $ightarrow$ [claude-opus-4-8-zh.md](./claude-opus-4-8-zh.md)
 - Claude Opus 4.8 Original (English) $ightarrow$ [claude-opus-4-8-en.md](./claude-opus-4-8-en.md)
 
+
+
+🔬 深度研究层 (Deep Research)
+- Cosmos 2.5 物理世界模型解剖 (ZH) $ightarrow$ [world-model-cosmos-2-5-zh.md](./world-model-cosmos-2-5-zh.md)
+
 🛠️ 实践方法层 (Methodology)
 - Agent 架构级提示词指南 (ZH) $ightarrow$ [agentic-workflow-guide-zh.md](./agentic-workflow-guide-zh.md)
 
