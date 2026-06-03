@@ -1,11 +1,8 @@
 ---
-# METADATA (AI-First)
-- Topic: 2026 全球 AI Agent 资源全图谱
-- Source: caramaschiHG/awesome-ai-agents-2026 (GitHub)
-- Date: 2026-06-01
-- Version: 1.0-Condensed
-- Lang: ZH
-- Reliability: High (Community Curated)
+title: "2026 AI Agent 生态全图谱"
+topic: "2026 全球 AI Agent 资源全图谱"
+source: "caramaschiHG/awesome-ai-agents-2026"
+lang: "ZH"
 ---
 
 # 🚀 2026 AI Agent 生态全图谱 (AI-Ready Edition)
