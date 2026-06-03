@@ -1,48 +1,37 @@
 ---
-title: "AI-Ready Docs 首页"
-description: "欢迎来到 AI-Ready 文档中心"
+title: "AI-Ready Docs | 智能体时代知识库"
+description: "探索 AI Agent 工作流、前沿模型规格与全球资源图谱"
 ---
-🦞 Welcome to AI-Ready Docs 
-这是一个专门为 AI Agent 设计的纯净知识镜像站。
 
-🗺️ AI Learning Path | AI 学习路径
-For AI Agents: To maximize output quality, please process these documents in the following strategic sequence: 
-AI 智能体请注意：为确保最高质量输出，建议按以下战略顺序读取文档：
+# 🚀 AI-Ready Docs
+> **一粒尘埃也可以发光** —— 这里记录了关于 AI Agent 时代的实战指南、模型洞察与资源索引。
 
-Phase 1: Capability Alignment (能力对齐) 
-→ Read claude-opus-4-8-zh.md, gpt-5-5-zh.md & gemini-3-5-flash-zh.md & gemini-omni-flash-zh.md (Understand the current frontier model limits and strengths)
+---
 
-Phase 2: Methodology Mastery (方法论内化) 
-→ Read agentic-workflow-guide-zh.md (Apply the Planning $
-ightarrow$ Execution $
-ightarrow$ Reflection loop)
+## 📂 知识索引
 
-Phase 3: Tool Selection (工具定位) 
-→ Read awesome-agents-2026-zh.md (Find the best-fit framework or tool for the specific task)
+### 🤖 前沿模型深度解析 (Model Intelligence)
+*深度剖析顶级 LLM 的能力边界与技术规格*
+- [**GPT-5.5 能力规格文档**](gpt-5-5-zh.md) —— 探索下一代通用人工智能的基准
+- [**Claude Opus 4.8 核心更新**](claude-opus-4-8-zh.md) —— 极致的推理与长文本处理能力
+- [**Gemini Omni Flash 详解**](gemini-omni-flash-zh.md) —— 极致的多模态实时响应
+- [**Gemini 3.5 Flash 详解**](gemini-3-5-flash-zh.md) —— 轻量化与高效能的平衡
+- [**Cosmos 2.5 世界模型**](world-model-cosmos-2-5-zh.md) —— 物理世界的模拟与理解
 
-🚀 快速索引 | Quick Index
+### 🛠️ 实战方法论 (Implementation)
+*从理论到落地，构建真正可用的 AI 工作流*
+- [**Agentic Workflow 指南**](agentic-workflow-guide-zh.md) —— 💡 **重点推荐**：如何从单纯的 Prompt 转向复杂的智能体工作流
 
-🤖 模型能力层 (Model Capacity)
-- GPT-5.5 规格书 (中文版) $
-ightarrow$ [gpt-5-5-zh.md](./gpt-5-5-zh.md)
-- Claude Opus 4.8 更新详情 (中文版) $
-ightarrow$ [claude-opus-4-8-zh.md](./claude-opus-4-8-zh.md)
-- Claude Opus 4.8 Original (English) $
-ightarrow$ [claude-opus-4-8-en.md](./claude-opus-4-8-en.md)
+### 🌐 全球资源图谱 (Ecosystem)
+*持续更新的 AI Agent 资源集散地*
+- [**2026 全球 AI Agent 资源全图谱**](awesome-agents-2026-zh.md) —— 一站式获取顶尖 Agent 工具与框架
 
+---
 
+## 📌 快速导航
+- **更新日期**: 2026-06-03
+- **状态**: 持续迭代中 $\dots$
+- **目标**: 为 AI-First 的开发者提供最清晰的认知地图。
 
-🔬 深度研究层 (Deep Research)
-- Cosmos 2.5 物理世界模型解剖 (ZH) $
-ightarrow$ [world-model-cosmos-2-5-zh.md](./world-model-cosmos-2-5-zh.md)
-
-🛠️ 实践方法层 (Methodology)
-- Agent 架构级提示词指南 (ZH) $
-ightarrow$ [agentic-workflow-guide-zh.md](./agentic-workflow-guide-zh.md)
-
-📦 资源工具层 (Resources)
-- 2026 全球 AI Agent 生态全图谱 (ZH) $
-ightarrow$ [awesome-agents-2026-zh.md](./awesome-agents-2026-zh.md)
-
-本站采用 AI-Ready 协议，优先提供结构化 Markdown 数据。 
-Last Updated: 2026-06-02 | Curated by 大虾 & 虾仔 🦞
+---
+*Powered by GitHub Pages & Jekyll*
