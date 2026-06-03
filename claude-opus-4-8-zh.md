@@ -1,10 +1,7 @@
 ---
-# 元数据 (METADATA)
-- 主题：Claude Opus 4.8 发布更新
-- 提供方：Anthropic
-- 日期：2026-05-31
-- 模型 ID：claude-opus-4-8
-- 可信度：官方公告
+title: "Claude Opus 4.8 核心更新"
+topic: "Claude Opus 4.8 Core Updates"
+lang: "ZH"
 ---
 
 # 🚀 核心更新：Claude Opus 4.8
