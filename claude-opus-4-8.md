@@ -1,10 +1,7 @@
 ---
-# METADATA
-- Topic: Claude Opus 4.8 Release
-- Provider: Anthropic
-- Date: 2026-05-31
-- Model_ID: claude-opus-4-8
-- Reliability: Official Announcement
+title: "Claude Opus 4.8 Release"
+topic: "Claude Opus 4.8 Core Updates"
+lang: "ZH"
 ---
 
 # 🚀 Core Update: Claude Opus 4.8
@@ -18,7 +15,9 @@
 
 ## 2. New Feature Set
 - **Dynamic Workflows**: [Claude Code Only] Ability to plan and run hundreds of parallel sub-agents in a single session for codebase-scale migrations.
-- **Effort Control**: Users can now select response depth on claude.ai (Low Effort $ightarrow$ Faster/Saves quota; High Effort $ightarrow$ Deeper reasoning).
+- **Effort Control**: Users can now select response depth on claude.ai (Low Effort $
+ightarrow$ Faster/Saves quota; High Effort $
+ightarrow$ Deeper reasoning).
 - **Messages API Upgrade**: Now accepts system entries inside the messages array, allowing instruction updates without breaking prompt cache.
 - **Fast Mode**: 2.5x speed increase; 3x cheaper than previous models.
 
