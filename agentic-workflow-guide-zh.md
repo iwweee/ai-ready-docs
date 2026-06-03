@@ -1,11 +1,7 @@
 ---
-# METADATA (AI-First)
-- Topic: 智能体工作流设计指南 (Agentic Workflow Blueprint)
-- Source: Anthropic Docs / Zylos Research / Agentic-Workflow.wiki
-- Date: 2026-06-01
-- Version: 1.0-Ready
-- Lang: ZH
-- Reliability: High (Production-Proven Patterns)
+title: "AI Agent 工作流指南"
+topic: "Agentic Workflow Guide"
+lang: "ZH"
 ---
 
 # 🚀 Agent 架构级提示词指南
