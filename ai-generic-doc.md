@@ -1,1 +1,0 @@
-Error: HTTPSConnectionPool(host='infer.nvidia.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='infer.nvidia.com', port=443): Failed to resolve 'infer.nvidia.com' ([Errno 8] nodename nor servname provided, or not known)"))
