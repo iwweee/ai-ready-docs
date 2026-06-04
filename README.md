@@ -14,4 +14,10 @@ We define a 4-layer protocol to make any documentation truly AI-Ready:
 - **L3 Context** $\rightarrow$ `AI-Context Blocks` to eliminate assumptions.
 - **L4 Evolution** $\rightarrow$ `.ai-feedback` for continuous improvement.
 
+## 🛠 Validation
+Verify if your documentation is AIRD-compliant using our lightweight linter:
+
+```bash
+python aird_lint.py ./your-docs-folder
+
 👉 [Read the full SPEC.md](./SPEC.md)
