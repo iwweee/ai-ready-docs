@@ -1,1 +1,14 @@
+# Project Name: [Insert Name]
+Description: [One sentence describing the project]
 
+## Core Documentation
+- [Getting Started](./docs/start.md): How to get up and running in 5 mins.
+- [API Reference](./docs/api.md): Complete specification of all endpoints.
+- [Architecture](./docs/arch.md): Deep dive into system design.
+
+## Critical Guides
+- [Authentication](./docs/auth.md): How to handle tokens and keys.
+- [Deployment](./docs/deploy.md): Guide for production rollout.
+
+## Glossary
+- [Key Terms](./docs/glossary.md): Definitions of domain-specific jargon.
