@@ -1,4 +1,11 @@
 ---
+ai-context:
+  topic: "🚀 2026 AI Agent 生态全图谱 (AI-Ready Edition)"
+  prerequisites: ['API Fundamentals', 'API Key Management', 'System Architecture']
+  critical-warning: ""
+---
+
+---
 title: "2026 AI Agent 生态全图谱"
 topic: "2026 全球 AI Agent 资源全图谱"
 source: "caramaschiHG/awesome-ai-agents-2026"

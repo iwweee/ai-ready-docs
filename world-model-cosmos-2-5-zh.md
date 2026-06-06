@@ -1,3 +1,10 @@
+---
+ai-context:
+  topic: "Cosmos-Predict 2.5 知识点阵图 (Knowledge Point Matrix)"
+  prerequisites: ['System Architecture']
+  critical-warning: ""
+---
+
 # Cosmos-Predict 2.5 知识点阵图 (Knowledge Point Matrix)
 
 ## 0. 核心概览 (Executive Summary)

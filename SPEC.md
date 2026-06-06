@@ -1,3 +1,10 @@
+---
+ai-context:
+  topic: "📄 AIRD Specification v1.0"
+  prerequisites: ['Environment Installation', 'API Key Management', 'Authentication Setup', 'API Fundamentals']
+  critical-warning: ""
+---
+
 # 📄 AIRD Specification v1.0
 
 ## 1. Core Philosophy

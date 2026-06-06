@@ -1,3 +1,10 @@
+---
+ai-context:
+  topic: "Gemini 3.5 Flash 能力规格书 (AI-Ready Version)"
+  prerequisites: ['API Key Management', 'System Architecture']
+  critical-warning: ""
+---
+
 # Gemini 3.5 Flash 能力规格书 (AI-Ready Version)
 
 ## 1. 定位与核心能力 (Core Positioning)

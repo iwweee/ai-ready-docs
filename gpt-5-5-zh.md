@@ -1,3 +1,10 @@
+---
+ai-context:
+  topic: "GPT-5.5 能力规格书 (AI-Ready Version)"
+  prerequisites: ['API Key Management']
+  critical-warning: ""
+---
+
 # GPT-5.5 能力规格书 (AI-Ready Version)
 
 ## 1. 定位与核心能力 (Core Positioning)

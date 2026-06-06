@@ -1,4 +1,11 @@
 ---
+ai-context:
+  topic: "🚀 AI-Ready Docs"
+  prerequisites: ['API Fundamentals', 'System Architecture']
+  critical-warning: ""
+---
+
+---
 title: "AI-Ready Docs | 智能体时代知识库"
 description: "探索 AI Agent 工作流、前沿模型规格与全球资源图谱"
 ---

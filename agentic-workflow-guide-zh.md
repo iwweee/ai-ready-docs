@@ -1,4 +1,11 @@
 ---
+ai-context:
+  topic: "🚀 Agent 架构级提示词指南"
+  prerequisites: ['API Key Management', 'System Architecture']
+  critical-warning: ""
+---
+
+---
 title: "AI Agent 工作流指南"
 topic: "Agentic Workflow Guide"
 lang: "ZH"

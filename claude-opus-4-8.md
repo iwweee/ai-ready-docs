@@ -1,4 +1,11 @@
 ---
+ai-context:
+  topic: "🚀 Core Update: Claude Opus 4.8"
+  prerequisites: ['API Key Management', 'Troubleshooting Guide', 'System Architecture', 'API Fundamentals', 'Database Schema']
+  critical-warning: ""
+---
+
+---
 title: "Claude Opus 4.8 Release"
 topic: "Claude Opus 4.8 Core Updates"
 lang: "ZH"

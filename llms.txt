@@ -1,0 +1,15 @@
+# aird-repo-check AI-Ready Docs
+
+## Core Documentation
+- gemini-omni-flash-zh.md (https://aird-repo-check/gemini-omni-flash-zh.md)
+- claude-opus-4-8-zh.md (https://aird-repo-check/claude-opus-4-8-zh.md)
+- agentic-workflow-guide-zh.md (https://aird-repo-check/agentic-workflow-guide-zh.md)
+- README.md (https://aird-repo-check/README.md)
+- gpt-5-5-zh.md (https://aird-repo-check/gpt-5-5-zh.md)
+- claude-opus-4-8.md (https://aird-repo-check/claude-opus-4-8.md)
+- index.md (https://aird-repo-check/index.md)
+- AIRD_SPEC.md (https://aird-repo-check/AIRD_SPEC.md)
+- awesome-agents-2026-zh.md (https://aird-repo-check/awesome-agents-2026-zh.md)
+- SPEC.md (https://aird-repo-check/SPEC.md)
+- gemini-3-5-flash-zh.md (https://aird-repo-check/gemini-3-5-flash-zh.md)
+- world-model-cosmos-2-5-zh.md (https://aird-repo-check/world-model-cosmos-2-5-zh.md)

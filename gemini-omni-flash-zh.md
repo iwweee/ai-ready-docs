@@ -1,3 +1,10 @@
+---
+ai-context:
+  topic: "Gemini Omni Flash 能力规格书 (AI-Ready Version)"
+  prerequisites: ['API Fundamentals', 'System Architecture']
+  critical-warning: ""
+---
+
 # Gemini Omni Flash 能力规格书 (AI-Ready Version)
 
 ## 1. 定位与核心能力 (Core Positioning)

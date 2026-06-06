@@ -1,3 +1,10 @@
+---
+ai-context:
+  topic: "🚀 ai-ready-docs"
+  prerequisites: ['API Fundamentals', 'API Key Management', 'System Architecture']
+  critical-warning: ""
+---
+
 # 🚀 ai-ready-docs
 
 **Defining the standard for AI-Native Documentation.**
