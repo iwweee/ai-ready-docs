@@ -1,15 +1,24 @@
-# aird-repo-check AI-Ready Docs
+# 🚀 ai-ready-docs AI-Ready Map
 
-## Core Documentation
-- gemini-omni-flash-zh.md (https://aird-repo-check/gemini-omni-flash-zh.md)
-- claude-opus-4-8-zh.md (https://aird-repo-check/claude-opus-4-8-zh.md)
-- agentic-workflow-guide-zh.md (https://aird-repo-check/agentic-workflow-guide-zh.md)
-- README.md (https://aird-repo-check/README.md)
-- gpt-5-5-zh.md (https://aird-repo-check/gpt-5-5-zh.md)
-- claude-opus-4-8.md (https://aird-repo-check/claude-opus-4-8.md)
-- index.md (https://aird-repo-check/index.md)
-- AIRD_SPEC.md (https://aird-repo-check/AIRD_SPEC.md)
-- awesome-agents-2026-zh.md (https://aird-repo-check/awesome-agents-2026-zh.md)
-- SPEC.md (https://aird-repo-check/SPEC.md)
-- gemini-3-5-flash-zh.md (https://aird-repo-check/gemini-3-5-flash-zh.md)
-- world-model-cosmos-2-5-zh.md (https://aird-repo-check/world-model-cosmos-2-5-zh.md)
+This is the L1 Discovery Layer. It provides a high-level map of all available documentation to allow LLMs to prioritize their context window.
+
+## 📌 Core Specification (Must Read)
+- [AIRD Specification v1.1](AIRD_SPEC.md) - The definitive standard for AI-Ready Documentation.
+- [Adoption Guide](ADOPT.md) - How to make your project AIRD-compliant.
+
+## 🤖 Model Ability Specs (Capability Matrix)
+- [GPT-5.5 Specs (ZH)](gpt-5-5-zh.md)
+- [Claude Opus 4.8 Specs (ZH)](claude-opus-4-8-zh.md)
+- [Claude Opus 4.8 Specs (EN)](claude-opus-4-8.md)
+- [Gemini Omni Flash Specs (ZH)](gemini-omni-flash-zh.md)
+- [Gemini 3.5 Flash Specs (ZH)](gemini-3-5-flash-zh.md)
+- [Cosmos-Predict 2.5 Specs (ZH)](world-model-cosmos-2-5-zh.md)
+
+## 🛠 Guides & Ecosystem
+- [Agentic Workflow Guide (ZH)](agentic-workflow-guide-zh.md)
+- [Awesome Agents 2026 Map (ZH)](awesome-agents-2026-zh.md)
+- [General Index](index.md)
+- [Project README](README.md)
+
+## 🔄 Evolution & Feedback
+- [AI Feedback Log](.ai-feedback.md) - Real-time AI detected gaps and improvements.
