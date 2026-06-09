@@ -21,4 +21,4 @@ jobs:
       - name: Run AIRD Linter
         run: |
           # 假设你使用了 v3 版本，如果没有，请改为 aird_lint.py
-          python3 aird_lint_v3.py .
+          python3 aird_lint_v4.py .
