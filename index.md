@@ -1,50 +1,54 @@
 ---
 ai-context:
-  topic: "🚀 AI-Ready Docs"
-  prerequisites: ['API Fundamentals', 'System Architecture']
-  critical-warning: ""
+  topic: "🚀 AI-Ready Docs Portal"
+  prerequisites: ['AIRD Spec v1.1']
+  critical-warning: "This is the entry point for the AIRD Protocol implementation."
 ---
 
 ---
-title: "AI-Ready Docs | 智能体时代知识库"
-description: "探索 AI Agent 工作流、前沿模型规格与全球资源图谱"
+title: "AI-Ready Docs | The Protocol Portal"
+description: "The official implementation and ecosystem of the AI-Native Documentation Standard (AIRD)."
 ---
 
-# 🚀 AI-Ready Docs
-> **一粒尘埃也可以发光** —— 这里记录了关于 AI Agent 时代的实战指南、模型洞察与资源索引。
+# 🚀 AI-Ready Docs: Protocol Portal
+> **Stop writing documentation for humans. Start building APIs for LLMs.**
 
----
-
-## 📂 知识索引
-
-### 🤖 前沿模型深度解析 (Model Intelligence)
-*深度剖析顶级 LLM 的能力边界与技术规格*
-- [**GPT-5.5 能力规格文档**](gpt-5-5-zh.md) —— 探索下一代通用人工智能的基准
-- [**Claude Opus 4.8 核心更新**](claude-opus-4-8-zh.md) —— 极致的推理与长文本处理能力
-- [**Gemini Omni Flash 详解**](gemini-omni-flash-zh.md) —— 极致的多模态实时响应
-- [**Gemini 3.5 Flash 详解**](gemini-3-5-flash-zh.md) —— 轻量化与高效能的平衡
-- [**Cosmos 2.5 世界模型**](world-model-cosmos-2-5-zh.md) —— 物理世界的模拟与理解
-
-### 🛠️ 实战方法论 (Implementation)
-*从理论到落地，构建真正可用的 AI 工作流*
-- [**Agentic Workflow 指南**](agentic-workflow-guide-zh.md) —— 💡 **重点推荐**：如何从单纯的 Prompt 转向复杂的智能体工作流
-
-### 📐 文档标准与工具 (AI-Ready Standard)
-*定义 AI-Native 文档标准，将知识库转化为可被 Agent 高效消费的 API*
-- [**AIRD Spec v1.0 规格书**](https://github.com/iwweee/ai-ready-docs/blob/main/SPEC.md) —— 构建 AI-Ready 文档的四层协议 (L1-L4)
-- [**AIRD Linter v3.0 自动化工具**](https://github.com/iwweee/ai-ready-docs/blob/main/aird_lint_v3.py) —— 快速检测并一键修复文档 AI 适配度
-- [**CI 自动化流水线方案**](https://github.com/iwweee/ai-ready-docs/blob/main/.github/workflows/aird-lint.yml) —— 在 GitHub Actions 中实现文档规范的强约束
-
-### 🌐 全球资源图谱 (Ecosystem)
-*持续更新的 AI Agent 资源集散地*
-- [**2026 全球 AI Agent 资源全图谱**](awesome-agents-2026-zh.md) —— 一站式获取顶尖 Agent 工具与框架
+这里是 **AIRD (AI-Ready Docs)** 协议的官方门户。我们致力于将传统的“静态知识库”转化为可被 AI Agent 高效消费、确定性检索的**智能体接口**。
 
 ---
 
-## 📌 快速导航
-- **更新日期**: 2026-06-05
-- **状态**: 持续迭代中 $\dots$
-- **目标**: 为 AI-First 的开发者提供最清晰的认知地图。
+## 📐 核心协议 (The AIRD Standard)
+*这是项目的灵魂。在阅读任何案例前，请先理解这套协议。*
+
+- [**📡 AIRD Spec v1.1 规格书**](./SPEC.md) —— **核心必读**：定义从 Discovery (L1) 到 Evolution (L4) 的四层架构。
+- [**🛠️ AIRD Linter v4.0 工具**](./aird_lint_v4.py) —— **自动化验证**：一键检测你的文档是否符合 AI-Native 标准。
+- [**📜 实施指南 (ADOPT.md)**](./ADOPT.md) —— 如何将现有存量文档迁移至 AIRD 标准。
 
 ---
-*Powered by GitHub Pages & Jekyll*
+
+## 🧪 协议实施案例 (Implementation Gallery)
+*以下文档已全部通过 AIRD v1.1 认证，是 AI-Native 文档的工业级范本。*
+
+### 🧠 模型情报接口 (Model Intel)
+*将复杂模型参数转化为 AI 易于解析的结构化上下文*
+- [**GPT-5.5 能力规格**](./gpt-5-5-zh.md)
+- [**Claude Opus 4.8 深度解析**](./claude-opus-4-8-zh.md)
+- [**Gemini Omni Flash 实时响应**](./gemini-omni-flash-zh.md)
+- [**Gemini 3.5 Flash 高效能方案**](./gemini-3-5-flash-zh.md)
+- [**Cosmos 2.5 世界模型**](./world-model-cosmos-2-5-zh.md)
+
+### 🛠️ 工作流工程 (Agentic Engineering)
+- [**Agentic Workflow 落地指南**](./agentic-workflow-guide-zh.md) —— 从 Prompt Engineering 演进到 Workflow Engineering。
+
+### 🌐 生态资源图谱 (Ecosystem)
+- [**2026 全球 AI Agent 资源全图谱**](./awesome-agents-2026-zh.md) —— 结构化索引的全球顶尖 Agent 工具链。
+
+---
+
+## 📌 状态快照
+- **协议版本**: `v1.1 (Evolutionary Stage)`
+- **更新日期**: 2026-06-09
+- **核心目标**: 消除 LLM 幻觉，最大化 RAG 检索精度。
+
+---
+*Powered by AIRD Protocol & GitHub Pages*
