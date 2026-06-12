@@ -1,54 +1,80 @@
----
-ai-context:
-  topic: "🚀 AI-Ready Docs Portal"
-  prerequisites: ['AIRD Spec v1.1']
-  critical-warning: "This is the entry point for the AIRD Protocol implementation."
----
+# 🚀 ai-ready-docs: The Standard for AI-Native Documentation
 
----
-title: "AI-Ready Docs | The Protocol Portal"
-description: "The official implementation and ecosystem of the AI-Native Documentation Standard (AIRD)."
----
+[![AIRD Compliant](https://img.shields.io/badge/AI--Ready-Docs-v1.1-blue)](https://github.com/iwweee/ai-ready-docs)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://spdx.org/licenses/mit.html)
 
-# 🚀 AI-Ready Docs: Protocol Portal
-> **Stop writing documentation for humans. Start building APIs for LLMs.**
+**Stop writing documentation for humans. Start building APIs for LLMs.**
 
-这里是 **AIRD (AI-Ready Docs)** 协议的官方门户。我们致力于将传统的“静态知识库”转化为可被 AI Agent 高效消费、确定性检索的**智能体接口**。
+`ai-ready-docs` (AIRD) is a rigorous specification designed to transform documentation from "human-readable text" into "**AI-consumable interfaces**." 
+
+In the era of Agentic Workflows and RAG, the bottleneck is no longer the model's reasoning power, but the **quality and structure of the context** provided. AIRD eliminates ambiguity, minimizes token waste, and virtually erases LLM hallucinations.
 
 ---
 
-## 📐 核心协议 (The AIRD Standard)
-*这是项目的灵魂。在阅读任何案例前，请先理解这套协议。*
+## 📊 The AIRD Advantage
 
-- [**📡 AIRD Spec v1.1 规格书**](./SPEC.md) —— **核心必读**：定义从 Discovery (L1) 到 Evolution (L4) 的四层架构。
-- [**🛠️ AIRD Linter v4.0 工具**](./aird_lint_v4.py) —— **自动化验证**：一键检测你的文档是否符合 AI-Native 标准。
-- [**📜 实施指南 (ADOPT.md)**](./ADOPT.md) —— 如何将现有存量文档迁移至 AIRD 标准。
-
----
-
-## 🧪 协议实施案例 (Implementation Gallery)
-*以下文档已全部通过 AIRD v1.1 认证，是 AI-Native 文档的工业级范本。*
-
-### 🧠 模型情报接口 (Model Intel)
-*将复杂模型参数转化为 AI 易于解析的结构化上下文*
-- [**GPT-5.5 能力规格**](./gpt-5-5-zh.md)
-- [**Claude Opus 4.8 深度解析**](./claude-opus-4-8-zh.md)
-- [**Gemini Omni Flash 实时响应**](./gemini-omni-flash-zh.md)
-- [**Gemini 3.5 Flash 高效能方案**](./gemini-3-5-flash-zh.md)
-- [**Cosmos 2.5 世界模型**](./world-model-cosmos-2-5-zh.md)
-
-### 🛠️ 工作流工程 (Agentic Engineering)
-- [**Agentic Workflow 落地指南**](./agentic-workflow-guide-zh.md) —— 从 Prompt Engineering 演进到 Workflow Engineering。
-
-### 🌐 生态资源图谱 (Ecosystem)
-- [**2026 全球 AI Agent 资源全图谱**](./awesome-agents-2026-zh.md) —— 结构化索引的全球顶尖 Agent 工具链。
+| Dimension | Traditional Docs (Human-Centric) | AIRD Standard (AI-Native) |
+| :--- | :--- | :--- |
+| **Discovery** | Manual search / Random crawling | $\text{L1 Discovery} \rightarrow$ Instant mapping via `llms.txt` |
+| **Parsing** | Heuristic chunking (Unpredictable) | $\text{L2 Structure} \rightarrow$ Deterministic hierarchy |
+| **Cognition** | Reliance on LLM's general knowledge | $\text{L3 Context} \rightarrow$ Explicit `ai-context` blocks |
+| **Maintenance** | Manual updates $\rightarrow$ Doc drift | $\text{L4 Evolution} \rightarrow$ Closed-loop `.ai-feedback` |
 
 ---
 
-## 📌 状态快照
-- **协议版本**: `v1.1 (Evolutionary Stage)`
-- **更新日期**: 2026-06-09
-- **核心目标**: 消除 LLM 幻觉，最大化 RAG 检索精度。
+## 🏗️ The 4-Layer Protocol (AIRD Spec v1.1)
+
+### 📡 L1: Discovery (The Map)
+**Goal**: Immediate orientation via `llms.txt`.
+
+### 🏗️ L2: Structure (The Skeleton)
+**Goal**: Perfect chunking via strict hierarchy and deterministic naming.
+
+### 🧠 L3: Context (The Brain)
+**Goal**: Eliminate assumptions using `ai-context` blocks (Topic, Prerequisites, Warnings).
+
+### 🔄 L4: Evolution (The Loop)
+**Goal**: Continuous self-improvement via the `.ai-feedback.md` mechanism.
 
 ---
-*Powered by AIRD Protocol & GitHub Pages*
+
+## 🛠️ Getting Started (The Fast Track)
+
+### 1. 📚 Learn by Example
+Don't start from scratch. Copy our proven AIRD templates for different scenarios:
+👉 **[Explore the Examples Gallery](./examples/)**
+- **Python Lib**: Ideal for SDKs and utility tools.
+- **System Architecture**: Best for complex enterprise software.
+- **Agent SOP**: Perfect for AI-driven workflows.
+
+### 2. 📈 Measure Your "AI-Readiness"
+Run our advanced Linter to get a quantitative **AI-Ready Score (0-100)** and a detailed compliance report.
+```bash
+# Install/Download aird_lint_v5.py
+python aird_lint_v5.py --suggest ./your-docs-folder
+```
+*The linter now checks for broken semantic dependencies and calculates your readiness rank (Elite $\rightarrow$ Low).*
+
+### 3. 🔄 Operationalize the Feedback Loop
+Stop manually fixing docs. Implement the L4 evolutionary workflow to let AI failures drive your documentation updates.
+👉 **[Read the Feedback Workflow Guide](./FEEDBACK_WORKFLOW.md)**
+
+### 4. 📜 Detailed Specification
+For a deep dive into the technical requirements of each layer:
+👉 **[Read the Full SPEC.md](./SPEC.md)**
+
+---
+
+## 🌟 Adoption & Ecosystem
+
+We are building a world where every project is `AI-Ready`.
+
+- **Current Status**: v1.1 (Evolutionary Stage)
+- **Goal**: To become the default documentation layer for autonomous AI agents.
+
+If you've implemented AIRD in your project, please let us know or open a PR to be added to our **AIRD-Compliant Projects** list!
+
+---
+
+## 📄 License
+Distributed under the MIT License. See `LICENSE` for more information.
