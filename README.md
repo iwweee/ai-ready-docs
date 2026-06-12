@@ -5,20 +5,13 @@
 
 **Stop writing documentation for humans. Start building APIs for LLMs.**
 
-`ai-ready-docs` (AIRD) is not just a guide; it is a rigorous specification designed to transform documentation from "human-readable text" into "**AI-consumable interfaces**."
+`ai-ready-docs` (AIRD) is a rigorous specification designed to transform documentation from "human-readable text" into "**AI-consumable interfaces**." 
 
-In the era of Agentic Workflows and RAG, the bottleneck is no longer the model's reasoning power, but the **quality and structure of the context** provided. AIRD eliminates ambiguity, minimizes token waste, and virtually erases LLM hallucinations by implementing a standardized interface between documents and AI.
+In the era of Agentic Workflows and RAG, the bottleneck is no longer the model's reasoning power, but the **quality and structure of the context** provided. AIRD eliminates ambiguity, minimizes token waste, and virtually erases LLM hallucinations.
 
 ---
 
-## 🛑 The Problem: Human-Centric vs. AI-Native
-
-Most documentation is written for humans. When fed into an LLM, this leads to:
-- **Context Fragmentation**: The AI misses critical dependencies hidden in other files.
-- **Token Bleed**: High noise-to-signal ratio wastes expensive context windows.
-- **Hallucinations**: AI "guesses" the intent when structural cues are missing.
-
-### 📊 The AIRD Advantage
+## 📊 The AIRD Advantage
 
 | Dimension | Traditional Docs (Human-Centric) | AIRD Standard (AI-Native) |
 | :--- | :--- | :--- |
@@ -31,40 +24,43 @@ Most documentation is written for humans. When fed into an LLM, this leads to:
 
 ## 🏗️ The 4-Layer Protocol (AIRD Spec v1.1)
 
-We define a layered architecture to ensure any documentation is truly "AI-Ready":
-
 ### 📡 L1: Discovery (The Map)
-**Goal**: Immediate orientation.
-- Implementation: `llms.txt`
-- Result: The AI knows exactly where to find what, without scanning the entire repository.
+**Goal**: Immediate orientation via `llms.txt`.
 
 ### 🏗️ L2: Structure (The Skeleton)
-**Goal**: Perfect chunking and retrieval.
-- Implementation: Strict directory hierarchy and standardized file naming.
-- Result: Zero-loss retrieval during RAG processes.
+**Goal**: Perfect chunking via strict hierarchy and deterministic naming.
 
 ### 🧠 L3: Context (The Brain)
-**Goal**: Eliminate assumptions.
-- Implementation: `ai-context` blocks (Topic, Prerequisites, Critical-Warnings).
-- Result: The AI understands *why* a piece of information matters and *what* must be true before proceeding.
+**Goal**: Eliminate assumptions using `ai-context` blocks (Topic, Prerequisites, Warnings).
 
 ### 🔄 L4: Evolution (The Loop)
-**Goal**: Continuous self-improvement.
-- Implementation: `.ai-feedback.md` mechanism.
-- Result: Documentation that evolves based on actual AI failure points.
+**Goal**: Continuous self-improvement via the `.ai-feedback.md` mechanism.
 
 ---
 
-## 🛠️ Quick Start
+## 🛠️ Getting Started (The Fast Track)
 
-### 1. Verify Compliance
-Check if your current documentation meets the AIRD standard using our lightweight linter:
+### 1. 📚 Learn by Example
+Don't start from scratch. Copy our proven AIRD templates for different scenarios:
+👉 **[Explore the Examples Gallery](./examples/)**
+- **Python Lib**: Ideal for SDKs and utility tools.
+- **System Architecture**: Best for complex enterprise software.
+- **Agent SOP**: Perfect for AI-driven workflows.
+
+### 2. 📈 Measure Your "AI-Readiness"
+Run our advanced Linter to get a quantitative **AI-Ready Score (0-100)** and a detailed compliance report.
 ```bash
-python aird_lint.py ./your-docs-folder
+# Install/Download aird_lint_v5.py
+python aird_lint_v5.py --suggest ./your-docs-folder
 ```
+*The linter now checks for broken semantic dependencies and calculates your readiness rank (Elite $\rightarrow$ Low).*
 
-### 2. Implement the Standard
-Follow the detailed specification to upgrade your docs:
+### 3. 🔄 Operationalize the Feedback Loop
+Stop manually fixing docs. Implement the L4 evolutionary workflow to let AI failures drive your documentation updates.
+👉 **[Read the Feedback Workflow Guide](./FEEDBACK_WORKFLOW.md)**
+
+### 4. 📜 Detailed Specification
+For a deep dive into the technical requirements of each layer:
 👉 **[Read the Full SPEC.md](./SPEC.md)**
 
 ---

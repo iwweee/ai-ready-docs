@@ -1,0 +1,12 @@
+# llms.txt
+
+# NanoJSON
+A lightweight, zero-dependency JSON parser for embedded systems.
+
+## Core Documentation
+- API Reference: [docs/api.md](./docs/api.md)
+- Integration Guide: [docs/integration.md](./docs/integration.md)
+
+## Key Constraints
+- Max memory footprint: 2KB
+- No heap allocation

@@ -1,0 +1,12 @@
+# llms.txt
+
+# Market Research Agent SOP
+Standard Operating Procedure for autonomous market analysis.
+
+## Execution Pipeline
+1. Discovery: [steps/step-1-discovery.md](./steps/step-1-discovery.md)
+2. Synthesis: [steps/step-2-synthesis.md](./steps/step-2-synthesis.md)
+3. Reporting: [steps/step-3-reporting.md](./steps/step-3-reporting.md)
+
+## Feedback Log
+- Evolution Log: [.ai-feedback.md](./.ai-feedback.md)

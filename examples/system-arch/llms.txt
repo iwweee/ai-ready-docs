@@ -1,0 +1,12 @@
+# llms.txt
+
+# TitanCloud Architecture
+A distributed cloud storage system designed for high availability.
+
+## System Modules
+- Networking Layer: [arch/networking.md](./arch/networking.md)
+- Storage Engine: [arch/storage.md](./arch/storage.md)
+- Auth Service: [arch/auth.md](./arch/auth.md)
+
+## High-Level Flow
+Request $\rightarrow$ Auth Service $\rightarrow$ Networking Layer $\rightarrow$ Storage Engine
