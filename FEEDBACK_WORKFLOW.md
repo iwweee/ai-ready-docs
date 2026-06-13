@@ -1,40 +1,40 @@
-# L4 Evolution: Feedback Workflow Guide
+# L4 Evolution: Feedback Workflow Guide (v1.2 Updated)
 
-The `.ai-feedback.md` file is not just a log—it is the "sensor" for your documentation's evolution. This guide transforms the L4 mechanism into a repeatable operational workflow.
+The `.ai-feedback.md` file is no longer just a log—it is the **trigger** for the documentation's self-evolution.
 
-## 🔄 The Feedback Loop (Capture $\rightarrow$ Analyze $\rightarrow$ Refine $\rightarrow$ Verify)
+## 🔄 The Evolutionary Loop (Capture $\rightarrow$ Patch $\rightarrow$ Review $\rightarrow$ Merge)
 
-### Step 1: Capture (The "Aha!" Moment)
-When an AI agent fails to perform a task correctly, **do not just correct it in the chat.** Capture the failure.
+### Step 1: Capture (Detection)
+When an AI agent fails to perform a task correctly or finds a gap, it must record it structurally in `.ai-feedback.md`.
 
-**What to record in `.ai-feedback.md`:**
-- **The Prompt**: What did you ask?
-- **The Failure**: What did the AI get wrong? (e.g., "Hallucinated a non-existent API parameter")
-- **The Evidence**: A link to the chat or a snippet of the wrong output.
+**Format for AI Agents:**
+- `[ ] **Gap ID**: [YYYY-MM-DD-ID]`
+- `Target`: [Path to file]
+- `Issue`: [What is missing or incorrect]
+- `Proposed Fix`: [Exact text change suggested]
 
-### Step 2: Analyze (Root Cause Identification)
-Determine which AIRD layer failed:
-- **L1 (Discovery) Failure**: The AI didn't know the information existed or went to the wrong file.
-- **L2 (Structure) Failure**: The AI found the file but got lost in the layout or couldn't find the specific section.
-- **L3 (Context) Failure**: The AI found the info but misunderstood the prerequisites or ignored a critical warning.
+### Step 2: Patch (The Action)
+Instead of waiting for a weekly review, the agent (or a specialized "Doc-Agent") can now:
+1. Create a branch: `ai-patch/<Gap-ID>`.
+2. Apply the `Proposed Fix` to the target file.
+3. Commit and push to GitHub.
+4. Open a Pull Request with the label `ai-generated-doc-patch`.
 
-### Step 3: Refine (The Fix)
-Update your documentation based on the analysis:
-- **Fix L1**: Update `llms.txt` to be more explicit about where information is located.
-- **Fix L2**: Rearrange the hierarchy or rename files for better deterministic retrieval.
-- **Fix L3**: Add a `critical-warning` or a new `prerequisite` to the `ai-context` block.
+### Step 3: Review (The Human Guardrail)
+The human maintainer reviews the PR. 
+- **If correct**: Merge the PR.
+- **If incorrect**: Request changes or close the PR.
 
-### Step 4: Verify (The Test)
-Run the exact same prompt again with the updated documentation.
-- **Success**: Mark the feedback item as `Resolved`.
-- **Failure**: Re-analyze and repeat Step 2.
+### Step 4: Verify (Closing the Loop)
+Once the PR is merged, the corresponding item in `.ai-feedback.md` is marked as `Resolved` (checked off).
 
 ---
 
-## 📈 Maintenance Schedule
+## 📈 Maintenance Schedule (v1.2)
 
-- **Weekly Review**: Scan `.ai-feedback.md` for recurring patterns. If the same mistake happens 3+ times, it's a systemic failure in your L1-L3 layers.
-- **Pruning**: Once a fix is verified and the documentation is stable, you can move resolved items to an archive to keep the feedback file lean.
+- **Continuous**: Agents log gaps as they happen.
+- **Daily/Weekly**: Human reviews the `ai-generated-doc-patch` PR queue.
+- **Pruning**: Archive resolved issues to keep the feedback file lean.
 
 ## 💡 Pro Tip
-If you are building a professional AI Agent, you can automate Step 1 by having the Agent itself append failures to `.ai-feedback.md` when it detects a "User Correction" in the conversation.
+Combine L5 Execution Protocols with this loop. If an agent fails to follow an L5 protocol because the "Success Criteria" were ambiguous, the agent should immediately log a gap in the L5 section of that document.
