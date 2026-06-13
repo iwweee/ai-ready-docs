@@ -1,80 +1,40 @@
-# 🚀 ai-ready-docs: The Standard for AI-Native Documentation
+# 📖 AIRD (AI-Ready Documentation) - Site Map
 
-[![AIRD Compliant](https://img.shields.io/badge/AI--Ready-Docs-v1.1-blue)](https://github.com/iwweee/ai-ready-docs)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://spdx.org/licenses/mit.html)
+Welcome to the official documentation for the **AI-Ready Documentation (AIRD) Standard**. This project provides the specifications, tools, and templates needed to make your documentation "AI-native."
 
-**Stop writing documentation for humans. Start building APIs for LLMs.**
+## 🗺️ Quick Navigation
 
-`ai-ready-docs` (AIRD) is a rigorous specification designed to transform documentation from "human-readable text" into "**AI-consumable interfaces**." 
+### 📜 Core Specification
+- **[AIRD SPEC v1.2](./AIRD_SPEC.md)**: The definitive guide to the 5 layers of AI-ready docs (L1-L5).
+- **[L5 Agentic Guide](./L5_AGENTIC_GUIDE.md)**: Specialized guide for implementing the Actionable Layer and Evolutionary Loops.
+- **[Feedback Workflow](./FEEDBACK_WORKFLOW.md)**: How to operationalize the L4 evolution loop.
 
-In the era of Agentic Workflows and RAG, the bottleneck is no longer the model's reasoning power, but the **quality and structure of the context** provided. AIRD eliminates ambiguity, minimizes token waste, and virtually erases LLM hallucinations.
+### 🛠️ Tools & Automation
+- **[AIRD Linter (v5)](./aird_lint_v5.py)**: The official tool to measure and validate your documentation's AI-readiness.
 
----
+### 📚 Templates & Examples
+- **[Examples Gallery](./examples/)**:
+    - [Python Library Template](./examples/python-lib/)
+    - [System Architecture Template](./examples/system-arch/)
+    - [Agent SOP Template](./examples/agent-sop/)
 
-## 📊 The AIRD Advantage
-
-| Dimension | Traditional Docs (Human-Centric) | AIRD Standard (AI-Native) |
-| :--- | :--- | :--- |
-| **Discovery** | Manual search / Random crawling | $\text{L1 Discovery} \rightarrow$ Instant mapping via `llms.txt` |
-| **Parsing** | Heuristic chunking (Unpredictable) | $\text{L2 Structure} \rightarrow$ Deterministic hierarchy |
-| **Cognition** | Reliance on LLM's general knowledge | $\text{L3 Context} \rightarrow$ Explicit `ai-context` blocks |
-| **Maintenance** | Manual updates $\rightarrow$ Doc drift | $\text{L4 Evolution} \rightarrow$ Closed-loop `.ai-feedback` |
-
----
-
-## 🏗️ The 4-Layer Protocol (AIRD Spec v1.1)
-
-### 📡 L1: Discovery (The Map)
-**Goal**: Immediate orientation via `llms.txt`.
-
-### 🏗️ L2: Structure (The Skeleton)
-**Goal**: Perfect chunking via strict hierarchy and deterministic naming.
-
-### 🧠 L3: Context (The Brain)
-**Goal**: Eliminate assumptions using `ai-context` blocks (Topic, Prerequisites, Warnings).
-
-### 🔄 L4: Evolution (The Loop)
-**Goal**: Continuous self-improvement via the `.ai-feedback.md` mechanism.
+### 🧪 AI Model Benchmarks
+A collection of documentation tailored for the strengths and weaknesses of specific LLMs:
+- **[GPT-5.5](./gpt-5-5-zh.md)**
+- **[Claude Opus 4.8](./claude-opus-4-8.md)**
+- **[Gemini Omni Flash](./gemini-omni-flash-zh.md)**
+- *(See more in the root directory)*
 
 ---
 
-## 🛠️ Getting Started (The Fast Track)
+## 🎯 Which path should you take?
 
-### 1. 📚 Learn by Example
-Don't start from scratch. Copy our proven AIRD templates for different scenarios:
-👉 **[Explore the Examples Gallery](./examples/)**
-- **Python Lib**: Ideal for SDKs and utility tools.
-- **System Architecture**: Best for complex enterprise software.
-- **Agent SOP**: Perfect for AI-driven workflows.
-
-### 2. 📈 Measure Your "AI-Readiness"
-Run our advanced Linter to get a quantitative **AI-Ready Score (0-100)** and a detailed compliance report.
-```bash
-# Install/Download aird_lint_v5.py
-python aird_lint_v5.py --suggest ./your-docs-folder
-```
-*The linter now checks for broken semantic dependencies and calculates your readiness rank (Elite $\rightarrow$ Low).*
-
-### 3. 🔄 Operationalize the Feedback Loop
-Stop manually fixing docs. Implement the L4 evolutionary workflow to let AI failures drive your documentation updates.
-👉 **[Read the Feedback Workflow Guide](./FEEDBACK_WORKFLOW.md)**
-
-### 4. 📜 Detailed Specification
-For a deep dive into the technical requirements of each layer:
-👉 **[Read the Full SPEC.md](./SPEC.md)**
+| If you are... | Start here $\rightarrow$ |
+| :--- | :--- |
+| **New to AIRD** | [README.md](./README.md) $\rightarrow$ [AIRD_SPEC.md](./AIRD_SPEC.md) |
+| **Updating an existing project** | [L5 Agentic Guide](./L5_AGENTIC_GUIDE.md) |
+| **Building an AI Agent** | [L5 Agentic Guide](./L5_AGENTIC_GUIDE.md) $\rightarrow$ [Feedback Workflow](./FEEDBACK_WORKFLOW.md) |
+| **Auditing your docs** | [Run aird_lint_v5.py](./aird_lint_v5.py) |
 
 ---
-
-## 🌟 Adoption & Ecosystem
-
-We are building a world where every project is `AI-Ready`.
-
-- **Current Status**: v1.1 (Evolutionary Stage)
-- **Goal**: To become the default documentation layer for autonomous AI agents.
-
-If you've implemented AIRD in your project, please let us know or open a PR to be added to our **AIRD-Compliant Projects** list!
-
----
-
-## 📄 License
-Distributed under the MIT License. See `LICENSE` for more information.
+*AIRD v1.2: From Information Retrieval to Autonomous Execution.*

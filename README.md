@@ -1,13 +1,13 @@
 # 🚀 ai-ready-docs: The Standard for AI-Native Documentation
 
-[![AIRD Compliant](https://img.shields.io/badge/AI--Ready-Docs-v1.1-blue)](https://github.com/iwweee/ai-ready-docs)
+[![AIRD Compliant](https://img.shields.io/badge/AI--Ready-Docs-v1.2-gold)](https://github.com/iwweee/ai-ready-docs)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://spdx.org/licenses/mit.html)
 
 **Stop writing documentation for humans. Start building APIs for LLMs.**
 
 `ai-ready-docs` (AIRD) is a rigorous specification designed to transform documentation from "human-readable text" into "**AI-consumable interfaces**." 
 
-In the era of Agentic Workflows and RAG, the bottleneck is no longer the model's reasoning power, but the **quality and structure of the context** provided. AIRD eliminates ambiguity, minimizes token waste, and virtually erases LLM hallucinations.
+In the era of Agentic Workflows, the bottleneck is no longer the model's reasoning power, but the **quality and structure of the context** and the **precision of the execution paths** provided. AIRD v1.2 eliminates ambiguity, minimizes token waste, and transforms documentation into a direct driver for autonomous AI agents.
 
 ---
 
@@ -19,10 +19,11 @@ In the era of Agentic Workflows and RAG, the bottleneck is no longer the model's
 | **Parsing** | Heuristic chunking (Unpredictable) | $\text{L2 Structure} \rightarrow$ Deterministic hierarchy |
 | **Cognition** | Reliance on LLM's general knowledge | $\text{L3 Context} \rightarrow$ Explicit `ai-context` blocks |
 | **Maintenance** | Manual updates $\rightarrow$ Doc drift | $\text{L4 Evolution} \rightarrow$ Closed-loop `.ai-feedback` |
+| **Execution** | Vague instructions $\rightarrow$ Hallucinations | $\text{L5 Actionable} \rightarrow$ Deterministic Execution Protocols |
 
 ---
 
-## 🏗️ The 4-Layer Protocol (AIRD Spec v1.1)
+## 🏗️ The 5-Layer Protocol (AIRD Spec v1.2)
 
 ### 📡 L1: Discovery (The Map)
 **Goal**: Immediate orientation via `llms.txt`.
@@ -35,6 +36,9 @@ In the era of Agentic Workflows and RAG, the bottleneck is no longer the model's
 
 ### 🔄 L4: Evolution (The Loop)
 **Goal**: Continuous self-improvement via the `.ai-feedback.md` mechanism.
+
+### ⚡ L5: Actionable (The Protocol) $\leftarrow$ NEW
+**Goal**: Move from "Information Retrieval" to "Autonomous Execution" via `## Execution Protocol`.
 
 ---
 
@@ -55,13 +59,17 @@ python aird_lint_v5.py --suggest ./your-docs-folder
 ```
 *The linter now checks for broken semantic dependencies and calculates your readiness rank (Elite $\rightarrow$ Low).*
 
-### 3. 🔄 Operationalize the Feedback Loop
-Stop manually fixing docs. Implement the L4 evolutionary workflow to let AI failures drive your documentation updates.
+### 3. 🔄 Operationalize the Evolutionary Loop
+Stop manually fixing docs. Implement the L4 evolutionary workflow where AI failures drive automated PRs for documentation updates.
 👉 **[Read the Feedback Workflow Guide](./FEEDBACK_WORKFLOW.md)**
 
-### 4. 📜 Detailed Specification
+### 4. 🤖 Mastering Agentic Execution
+Learn how to implement L5 protocols to turn your docs into an autonomous agent's operational manual.
+👉 **[Read the Agentic Guide](./L5_AGENTIC_GUIDE.md)**
+
+### 5. 📜 Detailed Specification
 For a deep dive into the technical requirements of each layer:
-👉 **[Read the Full SPEC.md](./SPEC.md)**
+👉 **[Read the Full SPEC.md](./AIRD_SPEC.md)**
 
 ---
 
@@ -69,7 +77,7 @@ For a deep dive into the technical requirements of each layer:
 
 We are building a world where every project is `AI-Ready`.
 
-- **Current Status**: v1.1 (Evolutionary Stage)
+- **Current Status**: v1.2 (Agentic Stage)
 - **Goal**: To become the default documentation layer for autonomous AI agents.
 
 If you've implemented AIRD in your project, please let us know or open a PR to be added to our **AIRD-Compliant Projects** list!
